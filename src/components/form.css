@@ -1,0 +1,44 @@
+.description {
+  display: flex;
+  flex-direction: column;
+}
+.description label {
+  font-weight: bold;
+  font-size: large;
+  margin: 5px;
+}
+
+.description textarea {
+  width: 100% !important;
+}
+
+.inputs {
+  margin: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons .save {
+  margin-top: 20px;
+  background-color: rgb(58, 69, 223);
+  padding: 10px;
+  width: 100px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.buttons .cancel {
+  margin-top: 20px;
+  background-color: rgb(240, 49, 43);
+  padding: 10px;
+  width: 100px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
